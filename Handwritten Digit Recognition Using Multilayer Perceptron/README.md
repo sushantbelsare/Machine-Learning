@@ -14,7 +14,7 @@ another through edges.
 Each edge contains weight. A bias is added to the product of input data and weight. Here w0 is bias and w1 through wn are weights.
 Based on activation function state of next layer is decided. The activation function shown in above figure is sigmoid function. 
 A small change in bias may sometimes affect network significantly.
-These parameters are crucial to the network. At the end of the output layer, activation values are compared with the training labels to
+These parameters are crucial to the network. At the end of the output layer, values are compared with the training labels to
 calculate how much they differ from expected output. This is called as cost function. Lower the cost, better the accuracy of network.
 Although this doesn't apply all the time. If you feed the network with same input data over and over again, you may run into overfitting.
 
